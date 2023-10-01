@@ -9,6 +9,13 @@ body {
   height:100vh;
 }
 
+#box {
+  margin-bottom:40px;
+  position:absolute;
+  top:0%;
+  right:50%;
+}
+
 h3{
   margin-bottom:30px;
 }
