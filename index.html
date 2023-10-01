@@ -2,7 +2,6 @@
 <html>
 
 <head>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <title>Learn Forms</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -13,76 +12,38 @@
 
 <div id="form" name="Form">
 
-  <form onsubmit="sendEmail(); reset(); return false;" required>
-  
+  <form action="https://formsubmit.co/cvcvosidees@gmail.com" method="POST" required>
   <h3 id="title">BIENVENUE ! REMPLISSEZ LE FORMULAIRE SVP !</h3>
-
-  <div id="margin">
-    <label for="fname"></label>
+  <div id="notgeneral">
     <input id="general" type="text" name="fname" placeholder="PRENOM" required>
   </div>
 
-  <br>
-
   <div id="margin">
-    <label for="lname"></label>
     <input id="general" type="text" name="lname" placeholder="NOM" required>
   </div>
-
   <br>
-
-  <div id="margin">
-    <label for="email"></label>
     <input id="general" type="email" name="email" placeholder="EMAIL"required>
-  </div>
-
   <br>
-
+  <br>
   <div id="margin">
-    <label for="phone"></label>
     <input id="general" type="tel" name="phone" placeholder="NUM. TEL"required>
   </div>
-
   <br>
-
   <div id="margin">
-    <label for="help"></label>
     <textarea id="diff" type="text" name="help" rows="7" maxlength="600" placeholder="Votre Idée :"required></textarea>
   </div>
-
   <br>
-
   <div id="margin">
     <input id="reset" type="reset" value="RESET">
   </div>
-
   <br>
-
   <div id="margin">
     <input id="submit" type="submit" value="SUBMIT">
   </div>
-
   <br>
-
   </form>
-
 </div>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-  function sendEmail(){
-        Email.send({
-        Host : "smtp.gmail.com",
-        Username : "Amine",
-        Password : "Amine Sakoute 2/8/9",
-        To : 'aminesakoute289@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Idea !",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
-  }
-</script>
+
 </body>
 
 </html>
