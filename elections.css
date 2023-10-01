@@ -12,7 +12,6 @@ body {
 #caca{
   position:absolute;
   top:0;
-  overflow: hidden;
   left:0;
   text-align:center;
   height:auto;
