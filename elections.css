@@ -45,7 +45,7 @@ h3{
 
 #submit:active{
   background-color:white;
-  color:darkred;
+  color:darkorange;
 }
 
 #reset {
@@ -69,12 +69,16 @@ h3{
 }
 
 #reset:active{
-  background-color:black;
-  color:yellow;
+  background-color:white;
+  color:rgb(22, 48, 197);
 }
 
 #margin {
-  margin:10px;
+  margin:12px;
+}
+
+#notgeneral{
+  margin-bottom:28px;
 }
 
 #general {
