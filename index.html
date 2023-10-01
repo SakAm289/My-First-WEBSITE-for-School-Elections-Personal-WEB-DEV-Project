@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <title>Learn Forms</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
 
 <div id="form" name="Form">
 
-  <form method="POST" onsubmit="sendEmail(); reset(); return false;" required>
+  <form onsubmit="sendEmail(); reset(); return false;" required>
   
   <h3 id="title">BIENVENUE ! REMPLISSEZ LE FORMULAIRE SVP !</h3>
 
@@ -71,7 +72,7 @@
   function sendEmail(){
         Email.send({
         Host : "smtp.gmail.com",
-        Username : "aminesakoute289@gmail.com",
+        Username : "Amine",
         Password : "Amine Sakoute 2/8/9",
         To : 'aminesakoute289@gmail.com',
         From : document.getElementById("email").value,
