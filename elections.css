@@ -4,6 +4,7 @@ body {
   font-family:Georgia, 'Times New Roman', Times, serif;
   justify-content: center;
   align-items:center;
+  overflow: hidden;
   display:flex;
   width:110%;
   height:100vh;
