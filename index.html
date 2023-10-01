@@ -12,7 +12,7 @@
 
 <div id="form" name="Form">
 
-  <form onsubmit="sendEmail(); reset(); return false;" required></form>
+  <form onsubmit="sendEmail(); reset(); return false;" required>
   
   <h3 id="title">BIENVENUE ! REMPLISSEZ LE FORMULAIRE SVP !</h3>
 
@@ -52,13 +52,13 @@
   <br>
 
   <div id="margin">
-    <button id="reset" type="reset">RESET</button>
+    <input id="reset" type="reset" value="RESET">
   </div>
 
   <br>
 
   <div id="margin">
-    <button id="submit" type="submit">SUBMIT</button>
+    <input id="submit" type="submit" value="SUBMIT">
   </div>
 
   <br>
@@ -70,12 +70,12 @@
 <script>
   function sendEmail(){
         Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "username",
-        Password : "password",
-        To : 'them@website.com',
-        From : "you@isp.com",
-        Subject : "This is the subject",
+        Host : "smtp.gmail.com",
+        Username : "aminesakoute289@gmail.com",
+        Password : "Amine Sakoute 2/8/9",
+        To : 'aminesakoute289@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "New Idea !",
         Body : "And this is the body"
     }).then(
       message => alert(message)
