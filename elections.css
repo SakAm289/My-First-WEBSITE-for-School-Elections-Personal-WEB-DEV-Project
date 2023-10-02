@@ -29,11 +29,6 @@ h3{
 }
 
 #form {
-  position:fixed;
-  top:50;
-  left:50;
-  right:50;
-  bottom:50;
   background-color: white;
   color: black;
   font-family:'Courier New', Courier, monospace;
