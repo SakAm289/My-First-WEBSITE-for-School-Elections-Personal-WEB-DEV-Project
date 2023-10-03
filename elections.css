@@ -44,7 +44,7 @@ body {
   color: white;
   font-family:Arial, Helvetica, sans-serif;
   border-radius: 20px;
-  width:180px;
+  width:auto;
   height:auto;
   font-weight:bold;
   cursor: pointer;
@@ -55,6 +55,7 @@ body {
 
 #submit:hover{
   box-shadow : 0 5px 10px rgba(0, 0, 0, 0.30);
+  letter-spacing:0.25cm;
 }
 
 #submit:active{
@@ -70,8 +71,8 @@ body {
   cursor: pointer;
   font-family:Arial, Helvetica, sans-serif;
   border-radius: 20px;
-  width: 115px;
-  height:35px;
+  width: auto;
+  height: auto;
   font-weight:bold;
   transition: box-shadow 0.05s, opacity 0.05s;
   border:0;
@@ -79,6 +80,7 @@ body {
 }
 
 #reset:hover{
+  letter-spacing:0.25cm;
   box-shadow : 0 5px 10px rgba(0, 0, 0, 0.30);
 }
 
