@@ -3,7 +3,6 @@ body {
   color: darkolivegreen;
   font-family:Georgia, 'Times New Roman', Times, serif;
   justify-content: center;
-  overflow:hidden;
   align-items:center;
   display:flex;
   width:100%;
@@ -55,7 +54,7 @@ body {
 
 #submit:hover{
   box-shadow : 0 5px 10px rgba(0, 0, 0, 0.30);
-  letter-spacing:0.25cm;
+  letter-spacing:3px;
 }
 
 #submit:active{
@@ -80,7 +79,7 @@ body {
 }
 
 #reset:hover{
-  letter-spacing:0.25cm;
+  letter-spacing:3px;
   box-shadow : 0 5px 10px rgba(0, 0, 0, 0.30);
 }
 
