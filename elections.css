@@ -43,7 +43,7 @@ body {
   color: white;
   font-family:Arial, Helvetica, sans-serif;
   border-radius: 20px;
-  width:100px;
+  width:175px;
   height:45px;
   font-weight:bold;
   cursor: pointer;
@@ -70,7 +70,7 @@ body {
   cursor: pointer;
   font-family:Arial, Helvetica, sans-serif;
   border-radius: 20px;
-  width:65px;
+  width:115px;
   height: 30px ;
   font-weight:bold;
   transition: box-shadow 0.05s, opacity 0.05s;
